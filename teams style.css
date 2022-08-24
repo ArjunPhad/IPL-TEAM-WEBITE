@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{ display: flex;
+    flex-direction: column;
+    
+}
+.container .logo img {
+width: 180px;
+height: 80px;
+margin: 10px 10px;
+}
+
+
+
+ #rcbimg{ margin-left: 100px;
+ width: 900px;
+    height: 500px;
+-webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4) );
+}
+
+.empty{
+    position: absolute;
+    clip-path: polygon(77% 0, 100% 0, 100% 100%, 40% 100%);
+    background-color: rgb(99, 2, 2);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: -1000;
+
+}
+a:link { text-decoration: none;
+color: white; }
+.navbar{
+    color: white;
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+}
+.ullist{
+    color: white;
+}
+header{
+    display: flex;
+ 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo{ cursor: pointer;
+    width: 180px;
+    height: 110px;
+   
+}
+.searchbar{font-family: 'Alatsi', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    width: 250px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 3px solid rgb(30, 41, 30);
+    color: brown;
+    text-align: center;
+}
+
+.nav_links{   font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;   
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+.nav_links li a{ font-weight: 800; font-size: 32px;
+    transition: all 0.5s ease 0s;
+    color: black;
+}
+.nav_links li a:hover{
+    color: rgb(255, 255, 255);
+}
+button{ margin-top: 30px;
+    padding: 15px 35px;
+    background-color: rgb(93, 9, 3);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Cabin', sans-serif;
+   
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
+.main-section{ 
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    
+}
+#bglogo{ margin-top: -75px;
+    width: 320px;
+    align-items: center;
+}
+span{
+    color: red;
+}
+p{font-family: 'Alatsi', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+
+}
+h1{
+    font-family: 'Alatsi', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.background-logo{ align-items: center;
+    cursor: pointer;
+}

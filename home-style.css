@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{ display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.container .logo img {
+width: 180px;
+height: 80px;
+margin: 10px 10px;
+}
+
+
+
+ #rcbimg{ margin-left: 100px;
+ width: 900px;
+    height: 500px;
+-webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4) );
+}
+
+.empty{
+    position: absolute;
+    clip-path: polygon(77% 0, 100% 0, 100% 100%, 40% 100%);
+    background-color: rgb(99, 2, 2);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: -1000;
+
+}
+a:link { text-decoration: none;
+color: white; }
+.navbar{
+    color: white;
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+}
+.ullist{
+    color: white;
+}
+header{
+    display: flex;
+ 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo{ cursor: pointer;
+    width: 180px;
+    height: 110px;
+   
+}
+.searchbar{font-family: 'Alatsi', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    width: 250px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 3px solid rgb(30, 41, 30);
+    color: brown;
+    text-align: center;
+}
+
+.nav_links{   font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;   
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+.nav_links li a{ font-weight: 800; font-size: 32px;
+    transition: all 0.5s ease 0s;
+    color: black;
+}
+.nav_links li a:hover{
+    color: rgb(213, 60, 255);
+}
+button{ margin-top: 30px;
+    padding: 15px 35px;
+    background-color: rgb(93, 9, 3);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Cabin', sans-serif;
+   
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
+.main-section{ 
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    
+}
+#bglogo{ margin-top: -75px;
+    width: 320px;
+    align-items: center;
+}
+span{
+    color: red;
+}
+p{font-family: 'Alatsi', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+
+}
+h1{
+    font-family: 'Alatsi', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.background-logo{ align-items: center;
+    cursor: pointer;
+}
+
+/*Team card style */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    align-items: stretch;
+  }
+  
+  .grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .grid > article img { 
+    max-width: 100%;
+  }
+  
+  .grid .text { text-align: center;
+    padding: 20px;
+  }
+ article{ background-color: blueviolet;
+    justify-content: center;
+ }
+ .logo-img{ margin: 40px;
+    justify-content: center;
+ }
+ .banglorebg{ 
+   background: linear-gradient(180deg, #6A6A6A 0%, #1C1C1C 100%);
+ }
+ .cskbg{ 
+  background: linear-gradient(180deg, #FCCA06 0%, #F25C19 100%);
+ }
+ .ddbg{ 
+  background: linear-gradient(180deg, #0078BC 0%, #17479E 100%);
+ }
+ .gujbg{ 
+  background: linear-gradient(180deg, #1e1801 0%, #0617d7 100%);
+ }
+ .sunbg{ 
+  background: linear-gradient(180deg, #3B215D 0%, #552792 100%);
+ }
+ .panjabbg{ 
+  background: linear-gradient(180deg, #D71920 0%, #84171B 100%);
+ }
+ .rrbg{ 
+  background: linear-gradient(180deg, #EA1A85 0%, #001D48 100%);
+ }
+ .mibg{ 
+  background: linear-gradient(180deg, #6ac1ff 0%, #007a18 100%);
+ }
+.h3color{
+    color: white;
+}
